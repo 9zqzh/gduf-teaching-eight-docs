@@ -1,0 +1,20 @@
+# 原始素材与生成成品：含真实姓名、教师简历与课件，不入库
+/八大件模板文件/
+/2026-2027-1*/
+/_work_ds/
+
+# Office 临时文件
+~$*
+~WRL*.tmp
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
