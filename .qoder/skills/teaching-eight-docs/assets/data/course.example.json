@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "semester": "2026-2027-1",
+    "teacher_name": "李明",
+    "department": "大数据与人工智能学院",
+    "author": "李明",
+    "reviewer": "王芳",
+    "approver": "张伟",
+    "date": "2026年8月",
+    "date_full": "2026年8月29日",
+    "teacher_profile": "",
+    "courseware": ""
+  },
+  "teacher": {
+    "name": "李明",
+    "gender": "男",
+    "birth": "1985年3月",
+    "title": "副教授",
+    "bachelor_school": "某某大学",
+    "doctor_school": "某某大学",
+    "work_start": "2010年7月",
+    "taught_courses": "高等数学、线性代数、概率论与数理统计",
+    "current_courses": "高等数学I"
+  },
+  "course": {
+    "name": "高等数学I",
+    "name_en": "Advanced Mathematics I",
+    "code": "173400001",
+    "nature": "学科基础必修课",
+    "type": "学科基础课程",
+    "major": "金融工程",
+    "class_name": "26金融工程1班",
+    "credits": 4,
+    "total_hours": 64,
+    "theory_hours": 64,
+    "lab_hours": 0,
+    "practice_hours": 0,
+    "prerequisites": "无",
+    "language": "中文",
+    "purpose": "本课程是金融工程专业的基础理论课，通过极限、导数、积分等内容的学习，培养学生的数学抽象、逻辑推理与计算能力，为后续专业课程奠定基础。",
+    "summary": "函数与极限、导数与微分、微分中值定理、不定积分、定积分及其应用。",
+    "assessment_text": "按平时40%，考试60%的标准综合评定该课程的总成绩。",
+    "intro": {
+      "background": "高等数学是经济管理类专业的重要基础课程，为后续专业课提供必要的数学工具。",
+      "purpose": "使学生掌握一元函数微积分的基本概念、基本理论和基本运算，提高分析问题与解决问题的能力。",
+      "content": "函数与极限、导数与微分、中值定理与导数应用、不定积分、定积分及其应用。",
+      "features": "注重数学思想方法与金融经济案例的结合，在教学中融入辩证唯物主义与科学精神教育。",
+      "methods": "课堂讲授与习题课结合，闭卷考试。",
+      "outcomes": "学生能够理解极限思想，熟练计算导数与积分，并能建立简单的经济数学模型。"
+    },
+    "objectives": [
+      "理解极限、连续、导数、积分等基本概念，掌握基本计算方法。",
+      "能够运用导数与积分解决经济分析中的简单优化与累积问题。",
+      "培养抽象思维、逻辑推理和严谨表达的能力。",
+      "形成用数学工具分析和解决实际问题的意识。"
+    ],
+    "objective_map": [
+      {
+        "graduation": "毕业要求2（学科知识）",
+        "indicator": "2.1",
+        "description": "掌握数学与统计学基础知识，能够运用数学工具分析经济金融问题。",
+        "objectives": "1（H）、2（H）"
+      },
+      {
+        "graduation": "毕业要求4（应用能力）",
+        "indicator": "4.1",
+        "description": "能够将数学方法应用于金融工程实际问题。",
+        "objectives": "3（M）、4（M）"
+      }
+    ],
+    "chapters": [
+      {
+        "no": "第一章",
+        "title": "函数与极限",
+        "hours": 16,
+        "objectives": "1，2",
+        "content": "函数的概念与性质；数列极限；函数极限；无穷小与无穷大；极限运算法则；两个重要极限；函数的连续性。",
+        "goals": ["理解函数与极限的基本概念。", "掌握极限的计算方法。", "了解函数连续性的判定。"],
+        "key_points": "极限的定义与计算；两个重要极限；连续性判定。",
+        "difficulties": "极限的ε-δ定义；无穷小的比较。",
+        "analysis": "学生具备初等数学基础，但极限的严格定义较为抽象。",
+        "preparation": "复习函数性质与初等函数图像；预习极限概念。",
+        "methods": "讲授与练习结合",
+        "homework": "教材第一章习题1.1-1.5。",
+        "organization": "复习函数—引入极限—讲授定义与性质—例题—课堂练习—小结—布置作业",
+        "ideology": "通过极限思想体会有限与无限的辩证关系，培养严谨求实的科学态度。",
+        "reflection": ["增加直观例子，降低极限定义的抽象度。", "加强课堂练习的层次性。"]
+      },
+      {
+        "no": "第二章",
+        "title": "导数与微分",
+        "hours": 20,
+        "objectives": "1，2，3",
+        "content": "导数概念；求导法则；高阶导数；隐函数求导；微分及其应用。",
+        "goals": ["理解导数的几何与经济意义。", "熟练掌握求导法则。", "能求解简单应用问题。"],
+        "key_points": "导数定义与求导法则；复合函数求导。",
+        "difficulties": "导数概念的理解；隐函数与参数方程求导。",
+        "analysis": "学生已掌握极限，具备学习导数的知识基础。",
+        "preparation": "复习极限与连续；预习导数定义。",
+        "methods": "讲授、例题演示与练习",
+        "homework": "教材第二章习题2.1-2.5。",
+        "organization": "复习极限—引入变化率—讲授导数定义—推导求导法则—例题—练习—小结",
+        "ideology": "通过边际分析案例体会数学在经济中的应用价值。",
+        "reflection": ["加强复合函数求导的分解训练。"]
+      },
+      {
+        "no": "第三章",
+        "title": "中值定理与导数应用",
+        "hours": 14,
+        "objectives": "2，3，4",
+        "content": "微分中值定理；洛必达法则；函数的单调性与极值；最值问题；函数图形的描绘。",
+        "goals": ["理解三大中值定理。", "掌握洛必达法则与极值判别。", "能解决简单优化问题。"],
+        "key_points": "拉格朗日中值定理；洛必达法则；极值判别。",
+        "difficulties": "定理的条件与证明思路；优化建模。",
+        "analysis": "学生已掌握导数计算，需加强定理应用。",
+        "preparation": "复习导数公式；预习中值定理。",
+        "methods": "讲授与案例教学",
+        "homework": "教材第三章习题3.1-3.3。",
+        "organization": "复习导数—引入中值定理—证明思路—应用例题—优化案例—练习—小结",
+        "ideology": "通过最优化问题培养资源节约与效率意识。",
+        "reflection": ["增加经济优化案例。"]
+      },
+      {
+        "no": "第四章",
+        "title": "不定积分与定积分",
+        "hours": 14,
+        "objectives": "1，2，3，4",
+        "content": "不定积分概念与基本积分法；定积分概念与性质；微积分基本定理；定积分的换元与分部积分；定积分的应用。",
+        "goals": ["掌握基本积分方法。", "理解定积分的几何与经济意义。", "能应用定积分解决面积、累积问题。"],
+        "key_points": "基本积分公式；换元积分与分部积分；微积分基本定理。",
+        "difficulties": "积分方法的选择；定积分应用建模。",
+        "analysis": "学生已掌握求导，积分作为逆运算需要强化训练。",
+        "preparation": "复习求导公式；预习积分概念。",
+        "methods": "讲授、习题课",
+        "homework": "教材第四章习题4.1-4.3。",
+        "organization": "复习导数—引入原函数—讲授积分法—例题—定积分应用—练习—小结",
+        "ideology": "通过面积与累积案例体会积分思想的应用价值。",
+        "reflection": ["加强积分方法选择训练。"]
+      }
+    ],
+    "schedule": [
+      {"week": "1(1)", "chapter": "1.1", "content": "函数的概念与性质", "hours": 4, "method": "讲练"},
+      {"week": "1(2)", "chapter": "1.2", "content": "数列极限", "hours": 4, "method": "讲练"},
+      {"week": "2(1)", "chapter": "1.3", "content": "函数极限", "hours": 4, "method": "讲练"},
+      {"week": "2(2)", "chapter": "1.4", "content": "两个重要极限与连续性", "hours": 4, "method": "讲练"},
+      {"week": "3(1)", "chapter": "2.1", "content": "导数概念", "hours": 4, "method": "讲练"},
+      {"week": "3(2)", "chapter": "2.2", "content": "求导法则", "hours": 4, "method": "讲练"},
+      {"week": "4(1)", "chapter": "2.3", "content": "高阶导数", "hours": 4, "method": "讲练"},
+      {"week": "4(2)", "chapter": "2.4", "content": "隐函数与参数方程求导", "hours": 4, "method": "讲练"},
+      {"week": "5(1)", "chapter": "2.5", "content": "微分及其应用", "hours": 4, "method": "讲练"},
+      {"week": "5(2)", "chapter": "3.1", "content": "微分中值定理", "hours": 5, "method": "讲练"},
+      {"week": "6(1)", "chapter": "3.2", "content": "洛必达法则", "hours": 5, "method": "讲练"},
+      {"week": "6(2)", "chapter": "3.3", "content": "极值、最值与函数作图", "hours": 4, "method": "讲练"},
+      {"week": "7(1)", "chapter": "4.1", "content": "不定积分概念与基本积分法", "hours": 5, "method": "讲练"},
+      {"week": "7(2)", "chapter": "4.2", "content": "定积分概念与微积分基本定理", "hours": 5, "method": "讲练"},
+      {"week": "8(1)", "chapter": "4.3", "content": "定积分的换元、分部积分与应用", "hours": 4, "method": "讲练"}
+    ],
+    "assessment": {
+      "exam_form": "统考",
+      "regular_ratio": 40,
+      "exam_ratio": 60,
+      "items": [
+        {"name": "作业", "requirement": "完成作业的80%以上", "ratio": 15, "objectives": "1，2，3", "group": "regular"},
+        {"name": "考勤", "requirement": "出勤率不低于90%", "ratio": 5, "objectives": "4", "group": "regular"},
+        {"name": "课堂表现", "requirement": "积极参与课堂", "ratio": 20, "objectives": "1，4", "group": "regular"},
+        {"name": "期末考试", "requirement": "闭卷笔试", "ratio": 60, "objectives": "1，2，3，4", "group": "final"}
+      ]
+    },
+    "textbook": {
+      "main": "《高等数学》（第七版）上册，同济大学数学系编，高等教育出版社，2014年",
+      "references": [
+        "同济大学数学系. 高等数学（第七版）. 北京：高等教育出版社，2014.",
+        "赵树嫄. 微积分（第四版）. 北京：中国人民大学出版社，2016."
+      ],
+      "online": ["中国大学MOOC《高等数学》"]
+    },
+    "lesson": {
+      "purpose": "通过本课程的学习，使学生掌握一元函数微积分的基本概念、基本理论和基本运算，培养数学抽象、逻辑推理与计算能力。",
+      "requirements": "本课程按“了解、理解、掌握”三个层次要求。了解内容只需知道基本概念；理解内容要求领会含义并能简单应用；掌握内容要求熟练计算与综合运用。"
+    }
+  },
+  "options": {
+    "docs": [1, 3, 4, 5]
+  }
+}
